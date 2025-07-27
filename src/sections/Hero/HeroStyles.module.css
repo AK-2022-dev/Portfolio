@@ -68,14 +68,21 @@
 }
 
 .description {
-  max-width: 24ch;
+  max-width: 60ch;
+  padding: 0 1rem;
+  margin: 0 auto;
+  font-size: 1.05rem;
+  line-height: 1.6;
 }
+
 
 .info {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding: 1rem; /* Add padding so it doesn't clash with other elements */
 }
+
 
 @media (width >= 800px) {
   .container {

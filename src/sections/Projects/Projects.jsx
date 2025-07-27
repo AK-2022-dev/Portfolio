@@ -1,8 +1,10 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import weather from '../../assets/Weather_App.png';
+import expensify from '../../assets/Expensify.png';
+import bone from '../../assets/Bone_Frac.png';
+import Train from '../../assets/train.png';
+import Ttt from '../../assets/tic_tac_toe.png';
+import music from '../../assets/music.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -11,28 +13,40 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          src={weather}
+          link="https://github.com/AK-2022-dev/WhetherApp"
+          h3="Weathora"
+          p="Weather Forcasting  App"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={expensify}
+          link="https://github.com/AK-2022-dev/Expensify_App"
+          h3="Expensify"
+          p="Expense Manager App"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          src={bone}
+          link="https://github.com/AK-2022-dev/bone_fracture"
+          h3="BoneSecure"
+          p="Bone Fracture Detection App"
         />
         <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
+          src={music}
+          link="https://github.com/AK-2022-dev/music_playerV-0.12"
+          h3="Harmoni"
+          p="Music Player App"
+        />
+        <ProjectCard
+          src={Train}
+          link="https://github.com/AK-2022-dev/Train_ticket-booking-system"
+          h3="YatraCheck"
+          p="Train Booking  System "
+        />
+        <ProjectCard
+          src={Ttt}
+          link="https://github.com/AK-2022-dev/Tic_Tac_Toe_Game"
+          h3="Tic_Tac_Toe"
+          p="TicTacToe Game "
         />
       </div>
     </section>

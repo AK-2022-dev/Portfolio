@@ -23,6 +23,7 @@ body {
   display: flex;
   justify-content: center;
   margin: 0 auto 60px;
+  font-family: 'Archivo',sans-serif;
 }
 
 #root {
@@ -43,7 +44,7 @@ p {
 h2,
 h3,
 p {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Manrope', sans-serif;
 }
 
 h1,
@@ -57,8 +58,12 @@ h3 {
 }
 
 h1 {
-  font-family: 'Rubik', sans-serif;
-  font-size: 32px;
+  font-family: 'Sora', sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--text-color, #1a1a1a);
+  margin: 0;
+  line-height: 1.2;
 }
 
 p {
